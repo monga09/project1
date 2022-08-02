@@ -3558,16 +3558,16 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   text-transform: uppercase;
 }
 .img_hvr_box.home7:before {
-  background-color: rgba(236, 208, 111, .9);
+  background-color: rgba(236, 208, 111, .1);
 }
 .img_hvr_box.home7.two:before {
-  background-color: rgba(255, 16, 83, .9);
+  background-color: rgba(255, 16, 83, .1);
 }
 .img_hvr_box.home7.three:before {
-  background-color: rgba(0, 167, 142, .9);
+  background-color: rgba(0, 167, 142, .1);
 }
 .img_hvr_box.home7.four:before {
-  background-color: rgba(0, 188, 228, .9);
+  background-color: rgba(0, 188, 228, .1);
 }
 .courses_all_btn .btn{
   border: 2px solid;
@@ -13882,5 +13882,11 @@ img.nav_logo_img.img-fluid.float-left.mt20 {
 		font-size: 19px;
 	}
 	
+	.home7_row {
+    margin: 30px auto;
+    text-align: center;
+}
+	
 	
 }
+
