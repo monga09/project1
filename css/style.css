@@ -13890,3 +13890,10 @@ img.nav_logo_img.img-fluid.float-left.mt20 {
 	
 }
 
+
+
+
+
+#gallery1    .owl-prev {top:85px;}
+
+#gallery1 .popular_course_slider.owl-carousel.owl-theme.owl-loaded .owl-next {top:85px;}
