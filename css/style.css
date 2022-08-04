@@ -13897,3 +13897,23 @@ img.nav_logo_img.img-fluid.float-left.mt20 {
 #gallery1    .owl-prev {top:85px;}
 
 #gallery1 .popular_course_slider.owl-carousel.owl-theme.owl-loaded .owl-next {top:85px;}
+
+.inner_page_breadcrumb {
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-top: -1px;
+    position: relative;
+	background-size: cover;
+}
+
+
+#ccn-main-region {
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+
+.course_heading{
+text-align: center;
+    font-weight: bold;
+font-size: 20px;}
