@@ -13917,3 +13917,8 @@ img.nav_logo_img.img-fluid.float-left.mt20 {
 text-align: center;
     font-weight: bold;
 font-size: 20px;}
+
+
+.course_space {padding:0 15px; box-sizing:border-box;}
+
+@media(max-width:768px){.course_space {padding:40px 15px 15px 15px ; box-sizing:border-box;}}
