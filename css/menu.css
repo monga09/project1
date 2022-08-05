@@ -137,7 +137,8 @@ header.stylehome1.home4 a {
     background: #fff;
     display: block;
     height: 2px;
-    margin: 6px 0;
+  /*  margin: 6px 0;*/
+   margin: 0;
     width: 35px;
 }
 
@@ -860,4 +861,12 @@ header.stylehome1.home4 a {
 
 /* Small devices (min-width: 576px) (max-width: 767.98px) // (landscape phones, less than 768px) */
 
-@media only screen and (max-width: 767.98px) {}
+@media only screen and (max-width: 767.98px) {
+	
+	span.mm-listitem__text {
+    color: #fff;
+}
+	
+}
+
+
