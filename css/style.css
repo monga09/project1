@@ -4363,7 +4363,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   background-color: rgb(255, 255, 255);
   -webkit-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
   -moz-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
-  box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+  box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.40);
   position: relative;
   padding: 20px 0 0;
 }
@@ -4379,7 +4379,8 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  padding: 20px 20px 30px;
+ /*padding: 20px 20px 30px;*/
+ padding:5px 20px 10px;
 }
 .my_course_content_list{
   position: relative;
@@ -6848,7 +6849,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   width: 50%;
 }
 .our-log.style4:before {
-  background-image: url(../images/background/14.jpg);
+  background-image: url(../images/main_login.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6895,12 +6896,28 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   max-width: 470px;
   padding: 70px 50px 60px;
 }
-.login_form.inner_page.style3{
+
+
+
+.login_form.inner_page.style3 {
+    background-color: transparent;
+    margin: 0 auto;
+    max-width: 358px;
+    padding: 39px 30px 60px 30px;
+    box-shadow: 2px 2px 4px #000;
+    margin-top: 20px;
+	border-radius: 7px;
+}
+
+
+
+
+/*.login_form.inner_page.style3{
   background-color: transparent;
   margin: 0 auto;
   max-width: 470px;
   padding: 70px 60px 60px 30px;
-}
+}*/
 
 .sign_up_form.inner_page .custom-control-label::before,
 .login_form.inner_page .custom-control-label::before{
@@ -13921,4 +13938,38 @@ font-size: 20px;}
 
 .course_space {padding:0 15px; box-sizing:border-box;}
 
-@media(max-width:768px){.course_space {padding:40px 15px 15px 15px ; box-sizing:border-box;}}
+@media(max-width:768px){.course_space {padding:40px 15px 15px 15px ; box-sizing:border-box;}  
+.our-log {
+    background-color: #f9fafc;
+	background-image:url(../images/login_bg.jpg);
+	background-size:cover;
+}
+.login_form.inner_page.style3 {background-color: white;}
+
+
+  }
+  
+  
+  
+  .red_star{color:red;}
+  
+  
+  
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:#ccc;
+}
+
+
+button.btn.dbxshad.btn-lg.btn-thm.circle.white {
+    padding: 8px 49px;
+    margin: 0px auto;
+}
