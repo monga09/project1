@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Page Title -->
+  <title>Test Project</title>
+  <!-- Meta Information -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--External CSS links start here-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/custom.css" rel="stylesheet"> <!--Custom CSS--->
+  <!--External CSS links end here-->
+ <!-- External JavaScript Links start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script> <!--Custom JS--->
+  <!--External JavaScript Links end-->
+</head>
+<body>
+
+ <!-- Main Container -->
+  
+<div class="container-fluid">
+  <div class="row">
+ <div class="col-lg-6 col-xl-6  col-xxl-6  col-md-12  col-xs-12  order-xs-2 order-sm-2  order-2 order-md-2   p-5  full_height">
+     <div class="formsection">
+	 <section >
+	 <header><img src="img/icon1.jpg"/><div class="d-inline p-2">Workday Strategic Sourcing</div>
+	 
+	<h1 class="pt-3 pb-3 sign_heading">Sign In</h1>
+	</header>
+	<!--- Login form starts  here--->
+	<form id="loginForm">
+	<!-- Email Input Field -->
+	<div class="fieldClass pb-3">
+	<label class="d-block font12">Email <span>*</span></label>
+	<input  id="email" class="p-1 w-66" type="email"   /><span class="icon"><i class="fa fa-envelope-o"></i></span>
+	</div>
+	<!-- Email Input Field ends -->
+	<!-- Password Input Field -->
+	<div class="fieldClass pb-3">
+	<label class="d-block font12">Password <span>*</span></label>
+	<input  class="p-1 w-66" type="password"  id="password"  /><span class="icon"><i class="fa fa-lock"></i></span>
+	</div>
+	<!-- Password Input Field ends -->
+	<!-- Submit Button-->
+	<div class="fieldClass ">
+	<button type="submit" class="btn signin_btn">Sign In </button>
+	</div>
+	<!-- Submit Button ends-->
+	 </form>
+	
+	 <div id="response"></div>
+     <!---Login--form ends here--->	 	
+	</section>
+
+	 
+	 <hr class="w-66" />
+	 <!---Help & Forgot password section starts--->	 
+	  <section >
+	 <div class="pb-3"><a href="#" class= "blue_text font12" >Forgot Password</a> </div>
+	 <div class="pb-3"><a href="#" class= "blue_text pb-3 font12">Did not receive confirmation instructions?</a> </div>
+	 <div class="pb-3"><a href="#" class= "blue_text pb-3 font12">Unlock your account</a> </div>
+	  <!---Language section starts--->
+	 <label class="d-block font12">Choose language</label>
+	 <select name="lng" id="language" class="pt-1 pb-1 w-66 font12">
+  <option value="eng">English</option>
+  <option value="hindi">Hindi</option>
+  <option value="french">French</option>
+  <option value="tamil">Tamil</option>
+  </select>
+<!---Language section ends--->
+<div class="pt-3"><a href="#" class= "blue_text pb-3 font12">Need Help?</a> </div>
+  </section>
+  <!---Help & Forgot password section ends--->
+</div>
+
+</div>
+<!---Section contains main image-->
+
+    <div class="col-lg-6 col-xl-6  col-xxl-6  col-md-12 col-xs-12 order-xs-1 order-sm-1  order-1 order-md-1  order-lg-2 bgGray p-5 full-height d-flex justify-content-center ">
+		<section>
+     <div class="text-center"><img src="img/mainImg.jpg"  class="mImg" /></div>
+	   </section>
+    </div>
+
+  <!---main image section ends here-->
+  </div>
+</div>
+ <!-- Main Container ends here-->
+</body>
+</html>
